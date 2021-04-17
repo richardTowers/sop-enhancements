@@ -117,5 +117,6 @@ Installation (chrome)
 Installation (firefox)
 ----------------------
 
-TODO
+* [View the latest release](https://github.com/richardTowers/sop-enhancements/releases/latest)
+* Download and install the `sop_enhancements-x.x-fx.xpi` file
 
