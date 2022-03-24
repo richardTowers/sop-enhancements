@@ -1,0 +1,12 @@
+@media print {
+  /* let's be careful and specific */
+  .psBody form[name="payslipform"],
+  .psBody a[href*="https://sop.govsharedservices.gov.uk"] {
+    display: none;
+  }
+  /* add padding that is lost when hidding the select */
+  .psBody table:nth-of-type(2) {
+    margin-bottom: 2em
+  }
+}
+ 
