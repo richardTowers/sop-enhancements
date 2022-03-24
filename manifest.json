@@ -8,7 +8,8 @@
      "matches": [
        "https://sop.govsharedservices.gov.uk/OA_HTML/RF.jsp?*"
      ],
-     "js": ["sop-enhancements.js"]
+     "js": ["sop-enhancements.js"],
+     "css": ["sop-print.css"]
    }
   ]
 }
