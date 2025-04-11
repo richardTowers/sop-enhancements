@@ -1,16 +1,19 @@
 {
   "name": "sop-enhancements",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "version": "1.0",
   "description": "Various enhancements to make SOP more usable",
   "content_scripts": [
-   {
-     "matches": [
-       "https://sop.govsharedservices.gov.uk/OA_HTML/RF.jsp?*"
-     ],
-     "js": ["sop-enhancements.js"],
-     "css": ["sop-print.css"]
-   }
+    {
+      "matches": [
+        "https://sop.govsharedservices.gov.uk/OA_HTML/RF.jsp?*"
+      ],
+      "js": ["sop-enhancements.js"],
+      "css": ["sop-print.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "host_permissions": [
+    "https://sop.govsharedservices.gov.uk/OA_HTML/RF.jsp?*"
   ]
 }
-
